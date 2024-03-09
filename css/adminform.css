@@ -9,6 +9,9 @@
         
     } 
 
+    .save{
+        display: none;
+    }
 
     #formContainer { 
         margin-bottom: 20px; 

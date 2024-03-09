@@ -1,6 +1,10 @@
 
 $(document).ready(function () {
-    $.ajax({
+    $(`.form-table`).on('click','.view',function(e){
+        const id = $(this).parent().parent().find('.id').html();
+        window.location.href = `/form/view/${id}`
+    })
+    /* $.ajax({
         url: '/api/v1/form/all',
         type: 'GET',
         headers: {
@@ -22,5 +26,5 @@ $(document).ready(function () {
           
             alert("Server Error")
         }
-      });
+      }); */
 });

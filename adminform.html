@@ -6,6 +6,8 @@
 		User Data Management 
 	</title> 
 	<link rel="stylesheet" href="/css/adminform.css" >
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="/js/adminform.js"></script>
 </head> 
 
 <body> 
@@ -21,7 +23,7 @@
 	<div class="add" >
 		<button>Add</button>
 	</div>
-	<table id="outputTable"> 
+	<table id="outputTable" class="form-table"> 
 		
 		<tr> 
 			<th>Id</th> 
@@ -32,13 +34,29 @@
 			<th class="Action">Action</th> 
 		</tr> 
 		<tr>
-			<td>1</td>
+			<td class="id">1</td>
 			<td>English Question</td>
-			<td><input type="date" class="date"></td>
-			<td>0</td>
-			<td><button>Edit </button>
-			<button>Delete </button></td>
+			<td><input type="date" class="date"><button class="save">save</button></td>
+			<td >0 </td>
+			<td><button class="edit">Edit </button>
+			<button class="delete">Delete </button></td>
 		</tr>
+		<tr>
+			<td class="id">4</td>
+			<td>English Question</td>
+			<td><input type="date" class="date"><button class="save">save</button></td>
+			<td >0 </td>
+			<td><button class="edit">Edit </button>
+			<button class="delete">Delete </button></td>
+		</tr>
+		<tr>
+			<td class="id">7</td>
+			<td>English Question</td>
+			<td><input type="date" class="date"><button class="save">save</button></td>
+			<td >0 </td>
+			<td><button class="edit">Edit </button>
+			<button class="delete">Delete </button></td>
+		</tr>  
 	</table> 
 	
 </body> 

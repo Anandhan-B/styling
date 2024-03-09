@@ -1,45 +1,54 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html>
 
-<head> 
-	<title> 
-		User Data Management 
-	</title> 
-	<link rel="stylesheet" href="/css/indexform.css" >
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head> 
+<head>
+	<title>
+		User Data Management
+	</title>
+	<link rel="stylesheet" href="/css/indexform.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="/js/index.js"></script>
+</head>
 
-<body> 
-	
+<body>
+
 
 	<nav class="navbar">
 		<div class="logo">LOGO</div>
 		<div class="nav-item">User
-            <i class='bx bxs-user-circle user'></i>
-        </div>
-		
-	</div>
+			<i class='bx bxs-user-circle user'></i>
+		</div>
+
+		</div>
 	</nav>
-	
-	<table id="outputTable"> 
-		
-		<tr> 
-			<th>Id</th> 
-			<th>QuestionSet</th> 
-			<th>Release Date</th> 
-			<th>Action</th>  
-		</tr> 
+
+	<table id="outputTable" class="form-table">
+
 		<tr>
-			<td>1</td>
+			<th>Id</th>
+			<th>QuestionSet</th>
+			<th>Release Date</th>
+			<th>Action</th>
+		</tr>
+		<tr>
+			<td class="id">1</td>
 			<td>English Question</td>
 			<td>0</td>
-			<td><button>View</button></td>
-			
-		</tr>
-	</table> 
-    
+			<td><button class="view">View</button></td>
 
-	
-</body> 
+		</tr>
+		<tr>
+			<td class="id">2</td>
+			<td>Maths Question</td>
+			<td>0</td>
+			<td><button class="view">View</button></td>
+
+		</tr>
+	</table>
+
+
+
+</body>
 
 </html>
